@@ -328,6 +328,7 @@ display: none;
 
 }
 .contenedor:hover .comunidad_image {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.contenedor {overflow:hidden;}
 
 #side-subtittle-index{
     font-family: 'Karla', sans-serif;
