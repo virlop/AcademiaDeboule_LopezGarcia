@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 /*-------------------------------------INDEX-----------------------------------------------*/
 img{
     width: 100%;
@@ -27,4 +29,13 @@ img{
     .index_activities_image{
         width: 100%;
     }
+ }
+
+ /*-------------------------------------NOSOTROS-----------------------------------------------*/
+ .fundadora{
+    font-family: 'Poppins', sans-serif;
+ }
+ .candela{
+    font-family: 'Square Peg', cursive;
+    font-size: 50px;
  }
