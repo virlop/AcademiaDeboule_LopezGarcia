@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap');
+
+/*-------------------------------------INDEX-----------------------------------------------*/
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    font-family: 'Square Peg', cursive;
+}
+
+.imagen_carrusel{
+    max-width: 4000px;
+    object-fit: cover;
+}
+
+.imagen_fundadora_index{
+    height: auto;
+}
+
+@media (max-width: 640px) {
+    .index_activities_column{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .index_activities_image{
+        width: 100%;
+    }
+ }
+
+ /*-------------------------------------NOSOTROS-----------------------------------------------*/
+
+ .fundadora{
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ .candela{
+    font-family: 'Square Peg', cursive;
+    font-size: 50px;
+ }
+
+ /*-------------------------------------ACTIVIDADES-----------------------------------------------*/
+
+ .titulo_actividades{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 30px;
+ }
+ 
