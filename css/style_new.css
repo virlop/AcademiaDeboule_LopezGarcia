@@ -8,7 +8,7 @@ img {
   height: auto; }
 
 .title {
-  font-family: 'Square Peg', cursive; }
+  font-family: "Square Peg", cursive; }
 
 .imagen_carrusel {
   max-width: 4000px;
@@ -26,13 +26,13 @@ img {
 
 /*-------------------------------------NOSOTROS-----------------------------------------------*/
 .fundadora {
-  font-family: 'Poppins', sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 .candela {
-  font-family: 'Square Peg', cursive;
+  font-family: "Square Peg", cursive;
   font-size: 50px; }
 
 /*-------------------------------------ACTIVIDADES-----------------------------------------------*/
 .titulo_actividades {
-  font-family: 'M PLUS 1p', sans-serif;
+  font-family: "M PLUS 1p", sans-serif;
   font-size: 30px; }

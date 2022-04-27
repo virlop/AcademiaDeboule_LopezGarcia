@@ -5,17 +5,22 @@
 
 /*-------------------------------------INDEX-----------------------------------------------*/
 
+$tittle_font: 'Square Peg', cursive;
+$max_width_carrusel: 4000px;
+$fundadora_font: 'Poppins', sans-serif;
+$actividades_font: 'M PLUS 1p', sans-serif;
+
 img{
     width: 100%;
     height: auto;
 }
 
 .title {
-    font-family: 'Square Peg', cursive;
+    font-family: $tittle_font;
 }
 
 .imagen_carrusel{
-    max-width: 4000px;
+    max-width: $max_width_carrusel;
     object-fit: cover;
 }
 
@@ -37,18 +42,18 @@ img{
  /*-------------------------------------NOSOTROS-----------------------------------------------*/
 
  .fundadora{
-    font-family: 'Poppins', sans-serif;
+    font-family: $fundadora_font;
  }
  
  .candela{
-    font-family: 'Square Peg', cursive;
+    font-family: $tittle_font;
     font-size: 50px;
  }
 
  /*-------------------------------------ACTIVIDADES-----------------------------------------------*/
 
  .titulo_actividades{
-    font-family: 'M PLUS 1p', sans-serif;
+    font-family: $actividades_font;
     font-size: 30px;
  }
  
