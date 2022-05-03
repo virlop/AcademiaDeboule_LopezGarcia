@@ -37,7 +37,7 @@ img{
  }
  /*-------------------------------------NOSOTROS-----------------------------------------------*/
  .fundadora{
-    font-family: $fundadora_font;
+    @extend .title;
  }
  
  .candela{
