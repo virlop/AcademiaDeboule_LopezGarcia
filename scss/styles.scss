@@ -37,11 +37,11 @@ img{
  }
  /*-------------------------------------NOSOTROS-----------------------------------------------*/
  .fundadora{
-    @extend .title;
+    font-family: $fundadora_font;
  }
  
  .candela{
-    font-family: $tittle_font;
+    @extend .title;
     font-size: 50px;
  }
  /*-------------------------------------ACTIVIDADES-----------------------------------------------*/

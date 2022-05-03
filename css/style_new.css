@@ -7,7 +7,7 @@ img {
   width: 100%;
   height: auto; }
 
-.title, .fundadora {
+.title, .candela {
   font-family: "Square Peg", cursive; }
 
 .imagen_carrusel {
@@ -25,8 +25,10 @@ img {
     width: 100%; } }
 
 /*-------------------------------------NOSOTROS-----------------------------------------------*/
+.fundadora {
+  font-family: "Poppins", sans-serif; }
+
 .candela {
-  font-family: "Square Peg", cursive;
   font-size: 50px; }
 
 /*-------------------------------------ACTIVIDADES-----------------------------------------------*/
