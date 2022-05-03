@@ -4,30 +4,27 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap');
 
 /*-------------------------------------INDEX-----------------------------------------------*/
-
 $tittle_font: 'Square Peg', cursive;
 $max_width_carrusel: 4000px;
 $fundadora_font: 'Poppins', sans-serif;
 $actividades_font: 'M PLUS 1p', sans-serif;
-
-img{
+@mixin pages_images {
     width: 100%;
     height: auto;
 }
-
+img{
+    @include pages_images();
+}
 .title {
     font-family: $tittle_font;
 }
-
 .imagen_carrusel{
     max-width: $max_width_carrusel;
     object-fit: cover;
 }
-
 .imagen_fundadora_index{
     height: auto;
 }
-
 @media (max-width: 640px) {
     .index_activities_column{
         display: grid;
@@ -38,9 +35,7 @@ img{
         width: 100%;
     }
  }
-
  /*-------------------------------------NOSOTROS-----------------------------------------------*/
-
  .fundadora{
     font-family: $fundadora_font;
  }
@@ -49,11 +44,8 @@ img{
     font-family: $tittle_font;
     font-size: 50px;
  }
-
  /*-------------------------------------ACTIVIDADES-----------------------------------------------*/
-
  .titulo_actividades{
     font-family: $actividades_font;
     font-size: 30px;
  }
- 
