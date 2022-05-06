@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap");
 /*-------------------------------------INDEX-----------------------------------------------*/
 img {
   width: 100%;
@@ -26,10 +27,7 @@ img {
 
 /*-------------------------------------NOSOTROS-----------------------------------------------*/
 .fundadora {
-  font-family: "Poppins", sans-serif; }
-
-.candela {
-  font-size: 50px; }
+  font-family: "Catamaran", sans-serif; }
 
 /*-------------------------------------ACTIVIDADES-----------------------------------------------*/
 .titulo_actividades {
